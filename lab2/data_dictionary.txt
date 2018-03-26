@@ -1,0 +1,3 @@
+title_classifications uses analytical SQL to assign the correct value based on the ratings of each title. For example, if the average rating of a title is less than 2.0, the title_classification is "Appalling"; if the average rating of a particular title is between 2.1 and 7.9, the title_classification is "Average"; finally, if the average rating of a title is greater than 8.0, the title_classification is "Outstanding".
+
+The genre is available through the title_genres table, using title_id as the foreign key. The title_type is also available, using title_id as the foreign key.

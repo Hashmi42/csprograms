@@ -1,0 +1,5 @@
+imdb=> select count(*) from title_ratings where movielens_rating is not null;
+ count 
+-------
+ 26687
+(1 row)

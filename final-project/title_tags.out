@@ -1,0 +1,5 @@
+imdb=> select count(*) from title_tags;
+ count  
+--------
+ 200380
+(1 row)

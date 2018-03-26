@@ -1,0 +1,1 @@
+create materialized view v_title_tags as select count(tb.primary_title) as number_of_occurrences, tt.tag as tag from title_basics tb inner join title_tags tt on tb.title_id = tt.title_id group by tt.tag order by count(tb.primary_title) desc;
